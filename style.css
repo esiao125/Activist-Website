@@ -1,0 +1,131 @@
+/* STYLE SECTIONING TAGS */
+/* MAKE SURE TO CLOSE EACH LINE WITH A ; */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+header {
+   background-color: #ffeee1;
+   text-align: center;
+   margin: 2%;
+}
+body {
+ background-color: #ffeee1; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+   color: #000000;
+   font-size: 4em;
+   font-family: "Cambria", San Serif;
+}
+
+p {
+   font-size: 2em;
+   text-align: center;
+   font-family: "Cambria", San Serif;
+   font-weight: 400;
+   color: #000000;
+   margin-top: 1%;
+   margin-bottom: 1%;
+}
+/*box and circle correspond to the area around the button, not the button*/
+.box {
+   padding: 5%;
+   background-color: #ff6666;
+   border-radius: 5%;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-bottom: 1%;
+}
+.circle {
+   padding: 8%;
+   background-color: #ff6666;
+   border-radius: 5%;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-bottom: 1%;
+}
+/*fact adn source correspond to the text displayed when the button is clicked*/
+#fact {
+   font-weight: 700;
+   font-family: "Cambria", San Serif;
+}
+#source {
+   font-weight: 700;
+   font-family: "Cambria", San Serif;
+}
+/* STYLE IMAGES */
+.Cow{
+   max-width: 30%;
+   max-height: 30%;
+   margin-left: 8%;
+   border: 3px solid #ff6666;
+}
+.Ducks {
+   max-width: 20%;
+   max-height: 20%;
+   border: 3px solid #ff6666;
+}
+.Dog {
+   max-width: 30%;
+   max-hegiht: 30%;
+   margin-right: 8%;
+   border: 3px solid #ff6666;
+}
+.Hedgehog {
+   border-radius: 50%;
+   max-width: 40%;
+   max-height: 40%;
+   margin-left: 30%;
+   border: 3px solid #000000;
+}
+/* STYLE NAV BAR */
+ul {
+   list-style-type: none;
+   background-color: #ff6666;
+   overflow: hidden;
+   padding: 1%;
+   padding-left: 2%;
+   margin-bottom: 2%;
+   margin-left: 46.5%;
+   margin-right: 44.9%;
+}
+li {
+  display: inline;
+}
+li a {
+   text-decoration: none;
+   color: #000000;
+   font-weight: 900;
+   font-size: 25px;
+   padding: 1%;
+   font-family: "Cambria", San Serif;
+   margin: 2%;
+}
+li a:hover {
+   background-color: #ffeee1;
+   text-decoration: underline 3px solid #000000;
+}
+
+/* STYLE BUTTONS */
+/* more, resource, and button control appearance modifications to the button */
+#more {
+   margin-left: 36%;
+   padding: 4%;
+}
+#resource {
+   margin-left: 36%;
+   padding: 5%;
+}
+button {
+   font-weight: 700;
+   font-size: 1.5em;
+   font-family: "Cambria", San Serif;
+   background-color: #ffeee1;
+   border: 5px solid #ffeee1;
+   margin-left: 20%;
+}
+/* ADD MORE! */
